@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600');
+*{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+/*Primer Index*/
+#general div {
+	margin-left: auto;
+	margin-right:auto;
+	padding: 10px;
+	width: 50%;
+}
+
+.bloque1, .bloque3 {
+	background: yellow;
+}
+
+.bloque2 {
+	background: salmon;
+	border: 1px solid black;
+}
+
+.bloque3 {
+	text-transform: uppercase;
+}
+
+
+/*Segundo Index*/
+#index2 div{
+	width: 20%;
+	margin: 8px;
+}
+
+#bloque1, #bloque2, #bloque3 {
+	text-align: left;
+}
+
+#bloque1 {
+	background: skyblue;
+	padding-bottom: 30px;
+}
+
+#bloque2 {
+	background: salmon;
+	padding-bottom: 30px;
+}
+
+#bloque3 {
+	text-transform: uppercase;
+	background: skyblue;
+	padding-bottom: 30px;
+}
+
+
+/*Tercer index*/
+#index3 .fila1 span {
+	padding: 10px;
+}
+.fila1, .fila2, .fila3 {
+	display: inline-block;
+}
+
+.fila1 {
+	background: yellow;
+}
+
+.fila2 {
+	background: salmon;
+}
+
+.fila3 {
+	text-transform: uppercase;
+	background: yellow;
+}
+
+/*Cuarto index*/
+.bold1, .bold2, .bold3 {
+	display: inline-block;
+	padding-bottom: 30px;
+	width: 15%;
+	text-align: left;
+}
+
+.bold1 {
+	background: skyblue;
+}
+
+.bold2 {
+	background: salmon;
+}
+
+.bold3 {
+	text-transform: uppercase;
+	background: skyblue;
+}
+
+/*Quinto index*/
+#container div{
+	margin: 20px;
+}
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7 {
+     width: 100px; 
+     height: 100px; 
+     background: salmon;
+     border: 1px solid #eee;
+     display: inline-block;
+}
+
+div #two {
+	border: 2px solid black;
+	width: 33%;
+}
+
